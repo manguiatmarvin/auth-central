@@ -1,0 +1,41 @@
+{
+  "name": "auth-central",
+  "version": "1.0.0",
+  "description": "OAuth2 provider Node JS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manguiatmarvin/auth-central.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "angular",
+    "oauth2",
+    "oauth2",
+    "provider",
+    "central",
+    "username",
+    "and",
+    "password"
+  ],
+  "author": "marvin manguiat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manguiatmarvin/auth-central/issues"
+  },
+  "homepage": "https://github.com/manguiatmarvin/auth-central#readme",
+  "devDependencies": {
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "@types/emojione": "^2.2.3",
+    "emojione": "^4.0.0"
+  }
+}
